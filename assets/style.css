@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Высота 100% от высоты видимой области страницы */
+}
+.instruments{
+    display: flex;
+    flex-direction: row; 
+    gap: 5px;  
+}
+#paragraph{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: red;
+
+}
+#button{
+background:forestgreen;
+color:rgb(252, 250, 250);
+border-radius: 4px;
+margin: 2px 2px 2px 2xp;
+}
+#result{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    color:darkgreen;
+    font-size: 25px;
+}
+#birthdayCard{
+    display: none;
+}
