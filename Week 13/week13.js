@@ -70,7 +70,6 @@ console.log(` ${futureDateInFutureYear}`);
 //Задание 14
 // Выведите в консоль разницу в годах между futureYear и текущим годом
 let yearDifference = futureYear - currentYear;
-let diffInYears = Math.floor(yearDifference/ (1000 * 60 * 60 * 24));
 console.log(yearDifference)
 //Задание 15
 // Используя метод Date.parse(), создайте новый объект date и преобразуйте переменную strDate в дату.
